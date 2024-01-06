@@ -1,0 +1,174 @@
+:root{
+    --acc: #C34A36;
+    --black:#01060c;
+    --white:#f8f9fa;
+    --testi:#B0A8B9
+}
+
+*{
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+
+background-color: var(--white);}
+
+h1,h2,h3,h4,h5{
+
+    font-family: 'Arimo', sans-serif;
+    color: var(--acc);
+}
+
+.nav-linkcustom{
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+.imgmontain{
+    background-image: url(./media/mountains2.png),url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+
+}
+
+
+.h1{
+    font-size: 500px;
+}
+
+.citazione {
+    height: 150vh;
+    color: #01060c;
+}
+
+.cerchi::before{
+    content:'';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--acc);
+    position: absolute;
+    bottom: 11px;
+    left: 49%;
+    background-color: white;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--acc);
+    padding-bottom: 5px; 
+}
+
+.stacco{ min-height: 50px;}
+
+
+.centered-button {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--acc); 
+    color: var(--testi); 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.centered-button:hover {
+    background-color: #0044ff;
+}
+
+.cerchi2::before{
+    content:'';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 5px solid var(--acc);
+    position: absolute;
+    top: 0px;
+    left: -6px;
+}
+.lineavert{
+    border-left: 2px solid var(--acc);
+    padding-left: 3%;
+}
+.bgalberibianchi{
+    background-image: url(./media/single.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+/* card */
+.card{
+    border: none;
+}
+
+.card-img-top {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid var(--acc); 
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    margin: 0 auto; 
+}
+
+.circle-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 5px solid var(--acc); 
+    border-radius: 50%;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+   
+}
+
+.icon-container{
+    margin: 10px;
+}
+.bgred{
+    background-image: url(./media/other.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+i {
+    margin-right: 10px;
+}
+
+/* footer */
+
+.footer-text{
+    background-color: darkred;
+}
+
+a {
+    text-decoration: none; 
+}
+
+li {
+    padding-left: -20px; /* Regola la distanza tra i punti elenco e il testo */
+}
+
+/* tanto non serve,  ma non si sa mai
+@media screen and (max-width: 1000px){
+    .h1{
+        font-size: 400px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .h1{
+        font-size: 100px;
+    }
+} */
+
